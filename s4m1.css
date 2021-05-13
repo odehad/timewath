@@ -1,0 +1,535 @@
+/* 13.12.15 row 733 */
+form {
+	margin-bottom: 0px;
+}
+/* 13.12.15 row 733 - end */
+.menu_table td,.menu_table tr {
+	vertical-align: top;
+	height: 32px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+input,select {
+	border: 1px solid silver;
+}
+
+input.error,select.error {
+	padding-right: 16px;
+	border: 1px solid red;
+	background-color: #FFFCE2;
+	background-image: url(/images/warning_obj.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+input:focus,select:focus {
+	border: 1px solid red;
+	background-color: #EFEFEF;
+}
+
+.mandatory {
+	font-weight: bold;
+}
+
+.roundedcornr_box_559815 {
+	background: #ff0000;
+}
+
+.roundedcornr_top_559815 div {
+	background: url(/images/roundedcornr_559815_tl.png) no-repeat top left;
+}
+
+.roundedcornr_top_559815 {
+	background: url(/images/roundedcornr_559815_tr.png) no-repeat top right;
+}
+
+.roundedcornr_bottom_559815 div {
+	background: url(/images/roundedcornr_559815_bl.png) no-repeat bottom
+		left;
+}
+
+.roundedcornr_bottom_559815 {
+	background: url(/images/roundedcornr_559815_br.png) no-repeat bottom
+		right;
+}
+
+.roundedcornr_top_559815 div,.roundedcornr_top_559815,.roundedcornr_bottom_559815 div,.roundedcornr_bottom_559815
+	{
+	width: 100%;
+	height: 10px;
+	font-size: 1px;
+}
+
+.roundedcornr_content_559815 {
+	margin: 0 10px;
+}
+
+.roundedcornr_box_840695 {
+	background: url(/images/roundedcornr_840695_tl.png) no-repeat top left;
+}
+
+.roundedcornr_top_840695 {
+	background: url(/images/roundedcornr_840695_tr.png) no-repeat top right;
+}
+
+.roundedcornr_bottom_840695 {
+	background: url(/images/roundedcornr_840695_bl.png) no-repeat bottom
+		left;
+}
+
+.roundedcornr_bottom_840695 div {
+	background: url(/images/roundedcornr_840695_br.png) no-repeat bottom
+		right;
+}
+
+.roundedcornr_content_840695 {
+	background: url(/images/roundedcornr_840695_r.png) top right repeat-y;
+}
+
+.roundedcornr_top_840695 div,.roundedcornr_top_840695,.roundedcornr_bottom_840695 div,.roundedcornr_bottom_840695
+	{
+	width: 100%;
+	height: 8px;
+	font-size: 1px;
+}
+
+.roundedcornr_content_840695,.roundedcornr_bottom_840695 {
+	margin-top: -19px;
+}
+
+.roundedcornr_content_840695 {
+	padding: 0 8px;
+}
+
+.roundedcornr_box_611069 {
+	background: url(/images/roundedcornr_611069_tl.png) no-repeat top left;
+}
+
+.roundedcornr_top_611069 {
+	background: url(/images/roundedcornr_611069_tr.png) no-repeat top right;
+}
+
+.roundedcornr_bottom_611069 {
+	background: url(/images/roundedcornr_611069_bl.png) no-repeat bottom
+		left;
+}
+
+.roundedcornr_bottom_611069 div {
+	background: url(/images/roundedcornr_611069_br.png) no-repeat bottom
+		right;
+}
+
+.roundedcornr_content_611069 {
+	background: url(/images/roundedcornr_611069_r.png) top right repeat-y;
+}
+
+.roundedcornr_top_611069 div,.roundedcornr_top_611069,.roundedcornr_bottom_611069 div,.roundedcornr_bottom_611069
+	{
+	width: 100%;
+	height: 7px;
+	font-size: 1px;
+}
+
+.roundedcornr_content_611069,.roundedcornr_bottom_611069 {
+	margin-top: -19px;
+}
+
+.roundedcornr_content_611069 {
+	padding: 0 7px;
+}
+
+.clsDataArea {
+	width: 108px;
+	background: #F4F4F4;
+}
+
+.clsOuterFrame {
+	background-color: #3F738D;
+}
+
+.clsInnerFrame {
+	background-color: #7BA1B1;
+}
+
+.clsTopPartNavpanel {
+	background-color: #C7DCDE;
+	height: 3px;
+}
+
+.clsBottomPartNavpanel {
+	background-color: #59879D;
+	height: 3px;
+}
+
+.clsNavpanel {
+	background-color: #7BA1B1;
+}
+
+.clsDateGrid {
+	background-color: #3F738D;
+}
+
+.clsWeekDay {
+	background-color: #ECECF1;
+	font: bold 11px Verdana, Arrial Narrow, sans-serif;
+	color: #3F738D;
+	width: 15 px;
+	text-align: center;
+}
+
+.clsSelectedDayCell {
+	background-color: #F22800;
+	text-align: center;
+}
+
+.clsWorkDayCell {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 15 px;
+}
+
+.clsHoliDayCell {
+	background-color: #DCE6F0;
+	text-align: center;
+	width: 15 px;
+}
+
+.clsOtherMonthDayCell {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 15 px;
+}
+
+.clsOtherMonthDay {
+	font: 11px Verdana, Arrial Narrow, sans-serif;
+	color: Silver;
+	text-decoration: none;
+}
+
+.clsCurrentMonthDay {
+	font: 11px Verdana, Arrial Narrow, sans-serif;
+	color: #3F738D;
+	text-decoration: none;
+}
+
+.clsSelectedDay {
+	font: 11px Verdana, Arrial Narrow, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.clsInfoTitle {
+	font: 11px Verdana, Arrial Narrow, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.roundRect {
+	background: #e9eef4;
+	padding: 5px;
+	border-style: solid;
+	border-color: #d4d5d7;
+	border-width: 1px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px 9px 9px 9px;
+	behavior: url(/ie-css3.htc);
+}
+/*21.10 users mailing*/
+.usrsMsg {
+	float: right;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 29px;
+	height: 23px;
+}
+
+.usrsMsg .msgIcon {
+	float: left;
+	width: 24px;
+	height: 16px;
+	margin-top: 4px;
+	margin-left: 0px;
+}
+
+.usrsMsg .msgDrpoDown {
+	position: absolute;
+	top: 21px;
+	left: -130px;
+	width: 156px;
+	height: 137px;
+	background-color: rgb(91, 146, 29);
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+
+.msgDrpoDown font {
+	width: 150px;
+	margin-right: 7px;
+	margin-top: 10px;
+	float: right;
+	font-family: arial, 'comic sans ms', technical;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 9pt;
+	color: white;
+}
+
+.msgDrpoDown font:hover {
+	color: yellow;
+}
+
+#mailCount {
+	background-color: rgb(55, 86, 140);
+	top: 9px;
+	left: -12px;
+	position: absolute;
+	color: white;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	font-family: arial;
+	font-size: 11px;
+	width: 16px;
+	border: 1px solid black;
+}
+
+
+/* line 739 21/12/2015 gabriel */
+.serviceCalls {
+	float: right;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 29px;
+	height: 23px;
+	margin-right: 12px;
+}
+
+.serviceCalls .srvcallIcon {
+	float: left;
+    width: 26px;
+    height: 22px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+#srvcallCount {
+	background-color: rgb(55, 86, 140);
+	top: 9px;
+	left: -12px;
+	position: absolute;
+	color: white;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	font-family: arial;
+	font-size: 11px;
+	width: 16px;
+	border: 1px solid black;
+}
+
+
+
+
+#---------------newMenu
+* 
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* 
+	LEVEL ONE
+*/
+ul.dropdown {
+	direction: rtl;
+	position: relative;
+	right: 0px;
+	padding: 0px;
+}
+
+ul.dropdown li {
+	font-weight: bold;
+	font-family: arial;
+	float: right;
+	zoom: 1;
+	background-color: rgb(91, 146, 29);
+}
+
+ul.dropdown a:hover {
+	color: #fff;
+}
+
+ul.dropdown a:active {
+	color: #ffa500;
+}
+
+ul.dropdown li a {
+	display: block;
+	padding: 2px 20px 3px 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	z-index: 1000;
+}
+
+ul.dropdown li:last-child a {
+	border-right: none;
+} /* Doesn't work in IE */
+ul.dropdown li.hover,ul.dropdown li:hover {
+	background: rgb(107, 162, 45);
+	color: black;
+	position: relative;
+}
+
+ul.dropdown li.hover a {
+	color: #fff;
+}
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul {
+	padding: 1px;
+	width: 220px;
+	visibility: hidden;
+	position: absolute;
+	z-index: 1000;
+	right: 0;
+	right: -40\9;
+}
+
+ul.dropdown ul li {
+	text-align: right;
+	font-weight: normal;
+	background-color: rgb(91, 146, 29);
+	color: #fff;
+	border: 1px solid #fff;
+	float: none;
+	z-index: 1000;
+}
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a {
+	border-right: none;
+	padding: 1px 16px 1px 8px;
+	z-index: 1000;
+}
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul {
+	right: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+ul.dropdown li:hover>ul {
+	visibility: visible;
+}
+
+ul.dropdown ul li {
+	width: 100%;
+	display: inline\9;
+}
+
+.sub_menu {
+	z-index: 1000;
+}
+
+/* 11.1.16 row 725 */
+#searchTbl{
+	width:100%
+}
+#searchTbl td {
+	padding: 10px;
+    border-bottom: 1px dotted #D8D8D8;
+}
+#searchTbl td > a {
+	text-decoration: none
+}
+
+.searchIcon {
+	float: right;
+    width: 26px;
+    height: 22px;
+    margin-top: 2px;
+    margin-right: 22px;
+    cursor: pointer;
+}
+#__search {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid #DDDDDD;
+	border-radius: 12px;
+	width: 90%;
+	font-size: 22px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#__search:focus {
+	box-shadow: 0 0 5px rgba(91, 146, 29, 1);
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(91, 146, 29, 1);
+	border-radius: 12px;
+	width: 90%;
+	font-size: 22px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#searchTbl{
+}
+#__searchResults
+{
+
+	width:90%;
+	max-height: 601px;
+    overflow: auto;
+    margin-top: 13px;
+}
+#searchIframe {
+	z-index:10000000;
+	position:fixed;
+	top:124px;
+	left:0px;
+	width:0px;
+	border: 2px solid rgba(192, 192, 192, 1);
+	border-bottom-right-radius: 8px;
+	background-color: white;
+}
+/* 11.1.16 row 725 - end*/
