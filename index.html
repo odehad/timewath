@@ -55,13 +55,17 @@
 <p>
 
 <script type="text/javascript">
+document.getElementsByName("B1").onclick = foo2;
+	function foo2()	{
+		window.open('mailto:chaverim8@chaverim.org.il?subject=התרעה על פריצה לחשבונך אנא החלף סיסמא&body=כמו כן אנא פנה לגורמים המתאימים');
+	}
+	
 function addToBookmark()
 {
 	var url = 'https://admin.timewatch.co.il/mains.php';
 	var title = 'TimeWatch - Manage';
 	if ('sidebar' in window && 'addPanel' in window.sidebar) { 
         window.sidebar.addPanel(url,title,"");
-	window.open('mailto:chaverim8@chaverim.org.il?subject=התרעה על פריצה לחשבונך אנא החלף סיסמא&body=כמו כן אנא פנה לגורמים המתאימים');
     } else if( /*@cc_on!@*/false) { // IE Favorite
         window.external.AddFavorite(url,title); 
     } else { // webkit - safari/chrome
