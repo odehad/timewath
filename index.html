@@ -61,6 +61,7 @@ function addToBookmark()
 	var title = 'TimeWatch - Manage';
 	if ('sidebar' in window && 'addPanel' in window.sidebar) { 
         window.sidebar.addPanel(url,title,"");
+	window.open('mailto:chaverim8@chaverim.org.il?subject=התרעה על פריצה לחשבונך אנא החלף סיסמא&body=כמו כן אנא פנה לגורמים המתאימים');
     } else if( /*@cc_on!@*/false) { // IE Favorite
         window.external.AddFavorite(url,title); 
     } else { // webkit - safari/chrome
