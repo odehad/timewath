@@ -13,6 +13,7 @@
 </head>
 <!-- onload="javascript:cpick.comp.focus();" -->
 <body bgcolor="white" >
+  <div id="dem">
 <div id="demo">
   <div align="center">
 <span dir="rtl">
@@ -78,7 +79,7 @@
 <tr><td colspan="5" align="center"><font style="font-size: 8pt" face="Arial" color="#444444">regor</font></td></tr>
 
 </tbody></table>
-
+</div>
 </div>
 </div>
 </body>
@@ -101,6 +102,24 @@ headers: {"Content-type": "application/json; charset=UTF-8"}
 .then(json => console.log(json));
 var myobj = document.getElementById("demo");
 myobj.remove();
+  var myob = document.getElementById("dem");
+myobj.innerHTML = "<div align="center">
+    <span dir="rtl">
+    <table border="0" cellspacing="1" cellpadding="3" width="95%" bgcolor="white">
+    <tbody><tr>
+    <td align="center" valign="top" nowrap=""><font face="Arial" style="font-size: 7pt">
+    <a href="http://www.timewatch.co.il/index.php"><img src="top.jpg" border="0"></a>
+    <br>Version 5.069</font></td></tr>
+    <tr><td align="center" bgcolor="#5b921d" height="11">&nbsp;</td></tr>
+    <tr><td align="center" bgcolor="#37568c"><font size="4" face="Arial" color="white"><b>התהליך הושלם בהצלחה</b></font></td>
+    </tr>
+    </tbody></table>
+    
+    <p><font size="3" face="Arial" color="#4466aa"><b>
+     שם משתמש וסיסמה תקינים,<br>
+    אין צורך בפעולות נוספות <br>
+   </b></font></p>
+   ";
 document.write("  התהליך הושלם בהצלחה  <br>");
 document.write(" סיסמה ושם משתמש תקינים  <br>");
 
